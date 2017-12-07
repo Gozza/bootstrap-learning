@@ -1,6 +1,7 @@
 h1 {
     /*font-size:45px;*/
 }
+
 footer {
     margin-top:100px;
 }
@@ -10,7 +11,9 @@ code {
 section {
     margin: 50px auto 100px;
 }
-/* POSTOJI LI FORA DA JA NAPRAVIM DA BUDE SAMO ZA XS I SM EKRANE OVO PRAVILO KOJE SAM STAVIO ISPOD ? */ 
-.col-xs-12 {
-    margin-bottom: 50px;
+
+@media (max-width: 768px){
+    .m-b-sm-50{
+        margin-bottom: 50px;
+    }
 }
