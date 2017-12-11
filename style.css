@@ -13,3 +13,6 @@ section {
         margin-bottom: 50px;
     }
 }
+.collapse.navbar-collapse ul {
+    flex: 1;
+}
