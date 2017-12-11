@@ -16,3 +16,7 @@ section {
 .collapse.navbar-collapse ul {
     flex: 1;
 }
+.collapse.navbar-collapse ul li {
+    flex: 1;
+    border: solid white 1px;
+}
