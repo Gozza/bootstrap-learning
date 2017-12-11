@@ -16,7 +16,19 @@ section {
 .collapse.navbar-collapse ul {
     flex: 1;
 }
-.collapse.navbar-collapse ul li {
-    flex: 1;
-    border: solid white 1px;
+
+@media (min-width: 1024px){
+    .collapse.navbar-collapse ul li {
+        flex: 1;
+    }
+
+}
+
+.collapse.navbar-collapse ul li a {
+    padding: 12px 8px 12px;
+    display: block;
+}
+
+.navbar {
+    padding: 0px;
 }
