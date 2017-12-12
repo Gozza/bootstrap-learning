@@ -1,5 +1,11 @@
+header .container {
+    margin-top: 20px;
+}
+hr {
+    margin-top:60px;
+}
 footer {
-    margin-top:100px;
+    margin-top:50px;
 }
 code {
     padding:0px;
