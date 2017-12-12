@@ -4,7 +4,7 @@ footer {
 code {
     padding:0px;
 }
-section {
+.container .text-center {
     margin: 50px auto 100px;
 }
 
