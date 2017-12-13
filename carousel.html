@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Carousel example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse">
+            <button class="navbar-toggler" data-target="#myNavbar" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-white">Carousel</a>
+            <div id="myNavbar" class="collapse navbar-collapse justify-content-between">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="carouselSection">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="carouselSlide" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselSlide" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselSlide" data-slide-to="1"></li>
+                            <li data-target="#carouselSlide" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img width="100%" src="gray-background.jpg">
+                                <div class="carousel-caption text-left hidden-md-down">
+                                    <h1>Example headline</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                        gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <button class="btn btn-lg btn-primary">Sign up today</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img width="100%" src="gray-background.jpg">
+                                <div class="carousel-caption text-center hidden-md-down">
+                                    <h1>Another example headline</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                        gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <button class="btn btn-lg btn-primary">Learn more</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img width="100%" src="gray-background.jpg">
+                                <div class="carousel-caption text-right hidden-md-down">
+                                    <h1>One more for good measure</h1>
+                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                        gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                    <button class="btn btn-lg btn-primary">Browse gallery</button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" role="button" href="#carouselSlide" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" role="button" href="#carouselSlide" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="columnSection">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-12 col-sm-4">
+                        <img class="rounded-circle mt-4" src="gray-background.jpg" width="150px" height="150px">
+                        <h1>Heading</h1>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                            vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                            cursus magna.</p>
+                        <a class="btn btn-outline-secondary">View details
+                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <img class="rounded-circle mt-4" src="gray-background.jpg" width="150px" height="150px">
+                        <h1>Heading</h1>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                            vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                            cursus magna.</p>
+                        <a class="btn btn-outline-secondary">View details
+                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <img class="rounded-circle mt-4" src="gray-background.jpg" width="150px" height="150px">
+                        <h1>Heading</h1>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+                            porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                            nibh, ut fermentum massa justo sit amet risus.</p>
+                        <a class="btn btn-outline-secondary">View details
+                            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 d-flex align-items-center pull-sm-1">
+                    <div>
+                        <h1 class="display-4">First featurette heading.
+                            <span class="text-muted">It'll blow your mind.</span>
+                        </h1>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <a>
+                        <img src="http://via.placeholder.com/500x500">
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-5 pull-sm-1">
+                    <a>
+                        <img src="http://via.placeholder.com/500x500">
+                    </a>
+                </div>
+                <div class="col-sm-7 d-flex align-items-center">
+                    <div>
+                        <h1 class="display-4">Oh yeah, it's that good.
+                            <span class="text-muted">See for yourself.</span>
+                        </h1>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-7 d-flex align-items-center pull-sm-1">
+                    <div>
+                        <h1 class="display-4">And lastly, this one.
+                            <span class="text-muted">Checkmate.</span>
+                        </h1>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <a>
+                        <img src="http://via.placeholder.com/500x500">
+                    </a>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </main>
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <p class="text-muted">
+                <i class="fa fa-copyright" aria-hidden="true"></i> 2017 Company, Inc. ·
+                <a href="#">Privacy</a> ·
+                <a href="#">Terms</a>
+            </p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
