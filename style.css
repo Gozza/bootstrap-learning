@@ -45,3 +45,20 @@ a:hover {
     border-bottom: solid 4px;
     border-bottom-color: #fff;
 }
+
+@media (max-width: 768px){
+    .mx-200 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 425px){
+    .mx-200 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .spec {
+        display: block;
+    }
+}
