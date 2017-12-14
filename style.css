@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    .vertical-nav {
+        position: fixed;
+        padding-top: 56px;
+        background-color: #E0E0E0;
+        height: 100%;
+    }
+}
+
+.vertical-nav .nav-item {
+    display: inline-block;
+    width: 300px;
+}
+
+.active {
+    background: rgb(96, 91, 161);
+}
+
+.wrapper {
+    padding-top: 64px;
+    padding-left: 316px;
+}
+
+@media (max-width:768px){
+    .wrapper {
+        padding-left: 16px;
+    }
+    .vertical-nav {
+        display: none; /* Ne znam zasto nisam mogao da dodam klasu hidden-md-down */
+    }
+}
