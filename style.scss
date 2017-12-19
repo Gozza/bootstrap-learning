@@ -1,0 +1,78 @@
+// THE SASS FILE
+//--------------
+
+//VARIABLES
+
+$white: white;
+
+$muted-lighter: #636c72 * 2.1;
+$muted-darker: #636c72 * 0.7;
+
+$jumbotron-lighter: #eceeef * 1.04;
+
+$lightblue: #C4D7F5;
+
+//$bigtext: 40px;
+
+//MIXINS
+
+//STYLES
+
+body {
+    background-color: $white;
+    font-family: Serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+code {
+    color:black;
+    background-color: white;
+}
+
+li {
+    font-size: 20px;
+}
+
+header .nav-link {
+    a {
+        font-size: 18px;
+    }
+
+    &:hover {
+        color: white !important;
+    }
+}
+
+
+.light a {
+    color: $muted-lighter;
+}
+
+.container .inner {
+    padding-right: 100px;
+    padding-left: 0px;
+}
+
+.link-list a {
+    display: block;
+    font-size: 20px;
+}
+
+.text-muted {
+    color: $muted-darker !important;
+}
+
+.jumbotron {
+    background-color: $jumbotron-lighter;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.bg-primary {
+    background-color: (#0275d8 * 1.1) !important;
+}

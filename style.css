@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  font-family: Serif; }
+
+p {
+  font-size: 20px; }
+
+code {
+  color: black;
+  background-color: white; }
+
+li {
+  font-size: 20px; }
+
+header .nav-link a {
+  font-size: 18px; }
+header .nav-link:hover {
+  color: white !important; }
+
+.light a {
+  color: #d0e3ef; }
+
+.container .inner {
+  padding-right: 100px;
+  padding-left: 0px; }
+
+.link-list a {
+  display: block;
+  font-size: 20px; }
+
+.text-muted {
+  color: #454c50 !important; }
+
+.jumbotron {
+  background-color: #f5f8f9; }
+
+.btn {
+  border-radius: 20px; }
+
+.bg-primary {
+  background-color: #0281ee !important; }
+
+/*# sourceMappingURL=style.css.map */
